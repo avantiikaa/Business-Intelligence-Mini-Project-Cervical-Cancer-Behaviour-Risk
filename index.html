@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cervical Cancer Risk - BI Project</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Cervical Cancer Behavior Risk</h1>
+    <p>Random Forest Feature Importances:</p>
+    {{ tables|safe }}
+    <a href="https://archive.ics.uci.edu/dataset/537/cervical+cancer+behavior+risk">Dataset Link</a>
+  </div>
+</body>
+</html>
